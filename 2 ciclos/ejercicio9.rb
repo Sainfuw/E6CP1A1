@@ -11,3 +11,14 @@
 </table>
 
 =end
+
+puts('<table>')
+puts('  <tbody>')
+puts('    <tr>')
+3.times do |i|
+  print("     <td> #{i + 1} </td>")
+  puts
+end
+puts('    </tr>')
+puts('  </tbody>')
+puts('</table>')

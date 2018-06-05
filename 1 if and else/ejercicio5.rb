@@ -10,6 +10,8 @@ if a == true
   else
     puts 'Lograste A! Pero no B!'
   end
+elsif b == true
+  puts 'Lograste B! Pero no A!'
 else
   puts 'No lograste A ni B!'
 end

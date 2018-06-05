@@ -24,3 +24,18 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+
+num = 1
+puts('<table>')
+puts('  <tbody>')
+3.times do
+  puts('    <tr>')
+  4.times do
+    print("     <td> #{num} </td>")
+    puts
+    num += 1
+  end
+  puts('    </tr>')
+end
+puts('  </tbody>')
+puts('</table>')
